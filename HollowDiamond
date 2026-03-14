@@ -1,14 +1,14 @@
 public class HollowDiamond {
     public static void main(String[] args) {
-        int n = 5; // Distance from center to top tip
+        int n = 5; 
 
-        // Top half (including middle row)
+       
         for (int i = 1; i <= n; i++) {
             // Print leading spaces
             for (int j = i; j < n; j++) {
                 System.out.print(" ");
             }
-            // Print stars and inner spaces
+            
             for (int k = 1; k <= (2 * i - 1); k++) {
                 if (k == 1 || k == (2 * i - 1)) {
                     System.out.print("*");
